@@ -21,7 +21,7 @@ function TypeAnimationBox() {
             <p className=" text-white">Demo</p>
           </div>
         </div>
-        <div className=" md:absolute z-50 md:top-[146px] md:left-[-160px] top-[-334px] left-[-89px] relative">
+        <div className=" md:absolute md:z-50 md:top-[146px] md:left-[-160px] top-[-334px] left-[-89px] relative">
           <div className=" flex flex-col w-[240px]  ml-3 bg-white rounded-xl px-4 py-3 md:h-[250px] h-auto">
             <div className=" flex gap-2">
               <img

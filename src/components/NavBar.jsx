@@ -66,12 +66,11 @@ const Navbar = () => {
           />
         </div>
         <div
-          className={` flex  md:items-center gap-24  md:flex-row flex-col absolute md:static top-[101px] left-0 ${
+          className={`flex  md:items-center gap-24  md:flex-row flex-col absolute md:static top-[101px] left-0 ${
             clicked
               ? " bg-white md:bg-inherit w-full px-8 py-3"
               : "hidden md:flex"
-          }`}
-          style={"z-index:1000"}
+          } z-50`}
         >
           <ul className="flex md:items-center justify-center gap-8 md:flex-row flex-col">
             <li>
