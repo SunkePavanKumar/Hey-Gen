@@ -53,9 +53,9 @@ const Navbar = () => {
   }
   return (
     <nav
-      className={`h-auto p-8 w-full md:min-w-[963px] ${
-        clicked ? "bg-white md:bg-inherit" : ""
-      }`}
+      className={`h-auto p-8 w-full md:min-w-[963px]${
+        clicked ? "bg-white md:bg-inherit relative" : ""
+      }  z-50`}
     >
       <div className=" flex items-center justify-between w-full">
         <div className="">
@@ -71,6 +71,7 @@ const Navbar = () => {
               ? " bg-white md:bg-inherit w-full px-8 py-3"
               : "hidden md:flex"
           }`}
+          style={"z-index:1000"}
         >
           <ul className="flex md:items-center justify-center gap-8 md:flex-row flex-col">
             <li>
