@@ -55,7 +55,7 @@ const Navbar = () => {
     <nav
       className={`h-auto p-8 w-full md:min-w-[963px]${
         clicked ? "bg-white md:bg-inherit relative" : ""
-      }  z-50`}
+      } z-[2000] sticky top-0 bg-[#e6e0f4]`}
     >
       <div className=" flex items-center justify-between w-full">
         <div className="">
